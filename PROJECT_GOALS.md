@@ -13,6 +13,11 @@
 - Taking advantage of Rust features like `Option<T>`, `Result<T,E>` or `Traits`
 - Cross-platform capabilities (If the users doesn't tell the engine anything about the platform, it should be possible to get it working on all supported platforms)
 - Grouping optional features provided by wgpu by backends to make it easier to take advantage of their full features
+- Supported platforms
+  - Vulkan
+  - DirectX 12
+  - Metal
+  - **No** OpenGL
 
 ## Opional goals
 - Having bindings fo other languages
