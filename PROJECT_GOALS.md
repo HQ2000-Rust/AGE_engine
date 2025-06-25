@@ -18,7 +18,7 @@
   - DirectX 12
   - Metal
   - **No** OpenGL
-
+- Having a dedicated, declarative scripting language for scene construction
 ## Opional goals
 - Having bindings fo other languages
 
