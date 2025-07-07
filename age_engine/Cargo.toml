@@ -1,0 +1,17 @@
+[package]
+name = "age_engine"
+version = "0.1.0"
+edition = "2024"
+authors = ["Jonathan Schmittat"]
+resolver = "3"
+
+[dependencies]
+#wgpu="25.0.2"
+#winit="0.30.11"
+env_logger="0.11.8"
+log="0.4.27"
+rodio="0.20.1"
+cpal="0.16.0"
+anyhow="1.0.98"
+#bytemuck = { version = "1.16", features = [ "derive" ] }
+
