@@ -1,6 +1,4 @@
-![](https://hackatime-badge.hackclub.com/U091KJSPK6X/age_engine)
-+
-![](https://hackatime-badge.hackclub.com/U091KJSPK6X/AGE_engine)
+>20h as of now (mostly learning stuff)
 # AGE_engine
 AGE, short for "Another Game Engine", is supposed to be a simple game engine written in Rust with basic support for things like 2d graphics, assets and so on. Making a project using it should not take much boilerplate, be straightforward and also beginner-friendly.
 ## Goals
