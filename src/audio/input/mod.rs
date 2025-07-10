@@ -1,3 +1,5 @@
-pub(super) struct InputDevice {
-    device: todo!(),
-}
+use super::device::Device;
+
+pub struct Input;
+
+impl Device<Input> {}
