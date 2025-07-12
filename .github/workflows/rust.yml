@@ -16,7 +16,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v4
-    - name: Build
-      run: cargo build --verbose
-    - name: Run tests
-      run: cargo test --verbose
+    #No build sice on linux the also development files are needed...
+    - name: Check
+      run: cargo check --verbose
