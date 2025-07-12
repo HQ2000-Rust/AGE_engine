@@ -48,6 +48,7 @@ impl Default for OutputHandle<OutputDisabled> {
 }
 
 impl<O: OutputHandlerState> std::fmt::Debug for OutputHandle<O> {
+    //tmp
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(
             f,
