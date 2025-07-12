@@ -1,4 +1,4 @@
-cargo-features = ["codegen-backend"]
+#cargo-features = ["codegen-backend"]
 
 [package]
 name = "age_engine"
@@ -14,7 +14,7 @@ rustflags = ["-Z", "threads=8"]
 
 
 [profile.dev]
-codegen-backend = "cranelift"
+#codegen-backend = "cranelift"
 
 [[bin]]
 name="audio"
